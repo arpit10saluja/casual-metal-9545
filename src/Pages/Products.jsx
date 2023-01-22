@@ -1,6 +1,7 @@
 import React from 'react'
 import {Card, CardBody, Image, Stack, Heading, Text, Divider, CardFooter, ButtonGroup, Button} from "@chakra-ui/react"
 import { useToast } from '@chakra-ui/react'
+import axios from 'axios'
 
 function BookNow() {
   const toast = useToast()
@@ -22,7 +23,11 @@ function BookNow() {
   )
 }
 
-
+const handleClick=(props)=>{
+axios.post(`http://localhost:${8080}/cart`,
+props).then((res)=>res)
+.catch((err)=>console.log(err))
+}
 
 function Product({props}) {
   const {id, description, images, name, price, ratings, strikeOfPrice}= props
@@ -57,6 +62,7 @@ function Product({props}) {
     <ButtonGroup spacing='2'>
      <BookNow />
       <Button variant='ghost' colorScheme='blue'
+      onClick={()=>handleClick(props)}
       >
         Add to cart
       </Button>
