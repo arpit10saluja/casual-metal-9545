@@ -16,7 +16,7 @@ export default function Navbar() {
     />
     </Link>
     <Link to={"/"}>
-     <Text fontWeight={"bold"} fontSize="30px">My Shop</Text>
+     <Text fontWeight={"bold"} fontSize="30px" marginLeft={["80px", "80px", "140px", "160px", "180px"]}>  My Shop</Text>
     </Link>
 
     <Box display={"flex"} gap="20px">
