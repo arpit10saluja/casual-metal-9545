@@ -1,4 +1,4 @@
-import { Avatar, Box, Stack,  Text } from "@chakra-ui/react";
+import { Avatar, Box, Stack,  Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 
@@ -21,10 +21,10 @@ export default function Navbar() {
 
     <Box display={"flex"} gap="20px">
         <Link to={"/login"}>
-          <Text>Login</Text>
+         <Button >Log in / Sign Up</Button>
         </Link>
         <Link to={"/cart"}>
-            <Text>Cart</Text>
+        <Button >Cart</Button>
         </Link>
     </Box>
    
