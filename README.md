@@ -25,4 +25,4 @@ components:-
 Important note:-
 for server you have to start json server locally on 8080 port
 type this command
-json-server --watch db.json --port 8080
+"json-server --watch db.json --port 8080"
