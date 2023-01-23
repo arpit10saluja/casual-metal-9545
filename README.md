@@ -21,3 +21,8 @@ components:-
 2. product
 3. All Routes
 4. Footer
+
+Important note:-
+for server you have to start json server locally on 8080 port
+type this command
+json-server --watch db.json --port 8080
