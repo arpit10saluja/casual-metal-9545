@@ -12,7 +12,7 @@ function Cart() {
 
 
   const getData=()=>{
-    return(axios.get(`http://localhost:${8080}/cart`)
+    return(axios.get(`https://myshop-apps-server.onrender.com/cart`)
     .then((res)=>
       res?.data)
     .catch((err)=>{

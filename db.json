@@ -1089,6 +1089,25 @@
   ],
   "cart": [
     {
+      "id": 8,
+      "name": "Men's Butter Crew Socks",
+      "description": "Soft, loopy bouclé brings ridiculous comfort to a pair of crew socks made with plenty of added stretch to move with you day and night.",
+      "brand": "NORDSTROM",
+      "type": "socks",
+      "gender": "Female",
+      "size": 1,
+      "images": [
+        "https://n.nordstrommedia.com/id/sr3/4357d81a-8327-45b5-b392-a96f14636a65.jpeg",
+        "https://n.nordstrommedia.com/id/sr3/975f7278-7243-44be-8710-51fd5fddaeba.jpeg"
+      ],
+      "strikeOfPrice": 799,
+      "price": 773.97,
+      "ratings": {
+        "rating": 5,
+        "count": 6
+      }
+    },
+    {
       "id": 3,
       "name": "Ribbed Crew Socks",
       "description": "Soft, stretchy ribbed socks have a cozy slouchy fit through the ankles and reinforced heels and toes for durability.",
@@ -1105,44 +1124,6 @@
       "ratings": {
         "rating": 4,
         "count": 304
-      }
-    },
-    {
-      "id": 6,
-      "name": "Kiss Me with Kiehl's Set USD $30 Value",
-      "description": "What it is: A boxed set that includes three full-sized lip balms in Mint, Cranberry and Original Unscented.",
-      "brand": "KIEHL'S SINCE 1851",
-      "type": "health-care",
-      "gender": "common",
-      "size": 1,
-      "images": [
-        "https://n.nordstrommedia.com/id/sr3/12f17bca-647a-497b-995a-f84e955ff057.jpeg",
-        "https://n.nordstrommedia.com/id/sr3/2099bd56-d878-4250-88f3-e28e477aa43d.jpeg"
-      ],
-      "strikeOfPrice": 2499,
-      "price": 2149.92,
-      "ratings": {
-        "rating": 4,
-        "count": 51
-      }
-    },
-    {
-      "id": 15,
-      "name": "Blazer Mid '77 Premium Sneaker",
-      "description": "Old-school b-ball is alive and scoring in a '70s-reissue high-top sporting a streamlined profile and sleek autoclave sole that keep the vintage vibes hustling.",
-      "brand": "Nike",
-      "type": "shoe",
-      "gender": "Male",
-      "size": 8,
-      "images": [
-        "https://n.nordstrommedia.com/id/sr3/6966a394-bed2-49a5-81af-868e8cbae2d3.jpeg",
-        "https://n.nordstrommedia.com/id/sr3/1c0821c0-d7ab-4b2c-aa89-8db86e6de678.jpeg"
-      ],
-      "strikeOfPrice": 10999.25,
-      "price": 9227.18,
-      "ratings": {
-        "rating": 5,
-        "count": 3
       }
     }
   ]
