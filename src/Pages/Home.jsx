@@ -16,7 +16,7 @@ export default function Home() {
 
 
   const getData=(catg)=>{
-    return(axios.get(`http://localhost:${8080}/${catg}`)
+    return(axios.get(`https://myshop-apps-server.onrender.com/${catg}`)
     .then((res)=>
       res?.data)
     .catch((err)=>{

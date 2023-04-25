@@ -24,7 +24,7 @@ function BookNow() {
 }
 
 const handleClick=(props)=>{
-axios.post(`http://localhost:${8080}/cart`,
+axios.post(`https://myshop-apps-server.onrender.com/cart`,
 props).then((res)=>res)
 .catch((err)=>console.log(err))
 }
